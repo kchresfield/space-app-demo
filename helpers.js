@@ -4,15 +4,6 @@ export function maskPhone(phone) {
   return `${"X".repeat(value.length - 4)}${value.slice(-4)}`;
 }
 
-export function obfuscateArgs(args) {
-  return Object.fromEntries(
-    Object.entries(args || {}).map(([key, value]) => [
-      key,
-      key.toLowerCase().includes("phone") ? maskPhone(value) : value,
-    ]),
-  );
-}
-
 export function normalizePhoneAddress(value) {
   if (!value) return "";
   return String(value)

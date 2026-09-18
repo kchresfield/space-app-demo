@@ -10,3 +10,11 @@ pnpm-debug.log*
 coverage/
 dist/
 .DS_Store
+DEMO.md
+livecoding.md
+reset-demo.js
+setup.js
+SETUP.md
+show-intelligence.js
+twilio-api.js
+helpers.js

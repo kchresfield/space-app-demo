@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Omnichannel air quality index agent demo for NASA Space Apps.",
   "type": "module",
-  "main": "agent.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node agent.js",
+    "start": "node server.js",
     "setup": "node setup.js",
     "reset:demo": "node reset-demo.js",
     "show:intelligence": "node show-intelligence.js",
