@@ -1,7 +1,7 @@
 {
   "name": "space-app-demo",
   "version": "1.0.0",
-  "description": "Demo for NASA's Space App NYC Kick off",
+  "description": "Omnichannel air quality index agent demo for NASA Space Apps.",
   "type": "module",
   "main": "agent.js",
   "scripts": {
