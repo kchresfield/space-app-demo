@@ -1,0 +1,27 @@
+{
+  "name": "space-app-demo",
+  "version": "1.0.0",
+  "description": "Demo for NASA's Space App NYC Kick off",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "setup": "node setup.js",
+    "reset:demo": "node reset-demo.js",
+    "show:intelligence": "node show-intelligence.js",
+    "close:conversation": "node close-conversation.js"
+  },
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.56.0",
+    "twilio": "^5.10.7",
+    "twilio-agent-connect": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
